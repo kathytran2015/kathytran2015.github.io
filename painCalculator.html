@@ -1,0 +1,29 @@
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+    
+      <title>How Much Suffer</title>
+      <meta name="description" content="How Much Suffer">
+      <meta name="author" content="SitePoint">
+    </head>
+    
+    <body>
+      <header>
+        <h1>Pain Calculator</h1>
+        <p>Using Numbers and Coding To Quantify The Sufferring in Your Body and Soul...</p>
+        <br>
+        <br>
+        <br>
+      </header>
+      <label for="emotional">Emotional Pain Level:</label>
+      <input type="number" id="emotional" name="emotional" value="0"><br><br>
+      <label for="physical">Physical Pain Level:</label>
+      <input type="number" id="physical" name="physical" value="0"><br><br>
+      <input type="button" onclick="howMuchPainDoYouFeel(document.getElementById('emotional').value, document.getElementById('physical').value)" value="Determine" />
+    
+      <script src="painCalculator.js"></script>
+      <p id="determine"></p>
+     
+    
+    </body>
+    </html>
