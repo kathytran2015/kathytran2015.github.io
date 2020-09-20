@@ -1,0 +1,14 @@
+.url  {
+    cursor: auto;
+    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenicursornormal.png) 4 12, auto;
+  }
+  
+.urlpoint  {
+    cursor: pointer;
+    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenicursorpointer.png) 2 2, pointer;
+  }
+body {
+    background-image: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenihaoripattern.png);
+
+    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/shrinkedzenicursornormal.png) 4 12, auto;
+  }
