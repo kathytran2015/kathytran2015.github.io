@@ -16,14 +16,14 @@ function howMuchPainDoYouFeel(emotional, physical){
     }
     if (physical + emotional > 9000) {
         document.getElementById("determine").innerHTML = "Its over 9000";
-        document.getElementById("image1").src = 'file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/cryingzenitsu.jpg'
+        document.getElementById("image1").src = 'cryingzenitsu.jpg'
     }
     else if (physical > emotional){
         document.getElementById("determine").innerHTML = "Go to sleep.";
-        document.getElementById("image1").src = 'file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/screamingzenitsu.jpeg'
+        document.getElementById("image1").src = 'screamingzenitsu.jpeg'
     }
     else{
         document.getElementById("determine").innerHTML = "I want to sleep forever.";
-        document.getElementById("image1").src = 'file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/sufferingzenitsu.jpg'
+        document.getElementById("image1").src = 'sufferingzenitsu.jpg'
     }
 }
