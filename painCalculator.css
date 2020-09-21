@@ -4,11 +4,60 @@
   }
   
 .urlpoint  {
-    cursor: pointer;
+    cursor: text;
     cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenicursorpointer.png) 2 2, pointer;
   }
+@font-face {
+    font-family: 'Coco Gothic Ultralight';
+    src: url('Coco-Gothic-Ultralight-trial.ttf');
+}
+@font-face {
+    font-family: 'Coco Gothic Bold';
+    src: url('Coco-Gothic-Bold-trial.ttf');
+}
+
 body {
     background-image: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenihaoripattern.png);
 
-    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/shrinkedzenicursornormal.png) 4 12, auto;
+    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/shrinkzenicursornormal.png) 4 12, auto;
   }
+h1 {
+    text-align: center;
+    font-family: 'Coco Gothic Ultralight';
+    font-size: 55px;
+    color: rgb(87, 62, 17);
+    background: rgb(255, 255, 255);
+    opacity: 0.8;
+    background-clip: content-box; 
+    border: 3px white dashed;
+  }
+p {
+    text-align: center;
+    font-family: 'Coco Gothic Bold';
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    color: rgb(87, 62, 17);
+}
+label {
+    text-align: center;
+    font-family: 'Coco Gothic Bold';
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    color: rgb(87, 62, 17);
+    background: rgb(189, 235, 250);
+    opacity: 0.8;
+    background-clip: content-box; 
+    border: 3px white dashed;
+    position: absolute;
+    left: 310
+}
+input {
+    margin: auto;
+    text-align: center;
+    font-variant-numeric: slashed-zero;
+    font-size: 15px;
+    color: rgb(87, 62, 17);
+    position: absolute;
+    left: 500;
+    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/shrinkzenicursorpointer.png) 2 2, text;
+}
