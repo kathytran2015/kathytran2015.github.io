@@ -15,7 +15,7 @@ function howMuchPainDoYouFeel(emotional, physical){
         document.body.appendChild(y);
     }
     if (physical + emotional > 9000) {
-        document.getElementById("determine").innerHTML = "Its over 9000";
+        document.getElementById("determine").innerHTML = "Its over NINE-THOUSAND";
         document.getElementById("image1").src = 'cryingzenitsu.jpg'
     }
     else if (physical > emotional){
