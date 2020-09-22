@@ -1,11 +1,11 @@
 .url  {
     cursor: auto;
-    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenicursornormal.png) 4 12, auto;
+    cursor: url(./zeni_images/zenicursornormal.png) 4 12, auto;
   }
   
 .urlpoint  {
     cursor: text;
-    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenicursorpointer.png) 2 2, pointer;
+    cursor: url(./zeni_images/zenicursorpointer.png) 2 2, pointer;
   }
 @font-face {
     font-family: 'Coco Gothic Ultralight';
@@ -17,9 +17,8 @@
 }
 
 body {
-    background-image: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/zenihaoripattern.png);
-
-    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/shrinkzenicursornormal.png) 4 12, auto;
+    background-image: url(./zeni_images/zenihaoripattern.png);
+    cursor: url(./zeni_images/shrinkzenicursornormal.png) 4 12, auto;
   }
 h1 {
     text-align: center;
@@ -48,8 +47,6 @@ label {
     opacity: 0.8;
     background-clip: content-box; 
     border: 3px white dashed;
-    position: absolute;
-    left: 310
 }
 input {
     margin: auto;
@@ -57,7 +54,20 @@ input {
     font-variant-numeric: slashed-zero;
     font-size: 15px;
     color: rgb(87, 62, 17);
-    position: absolute;
-    left: 500;
-    cursor: url(file:///Users/kathytran/Documents/I%20Want%20to%20Play%20With%20Code/Pain%20Calculator/shrinkzenicursorpointer.png) 2 2, auto;
+    cursor: url(./zeni_images/shrinkzenicursorpointer.png) 2 2, auto;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#physical {
+    margin-left: 13px;
+}
+
+.calculate {
+    margin-left: 159px;
 }

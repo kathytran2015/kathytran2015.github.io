@@ -16,14 +16,20 @@
         <br>
         <br>
       </header>
-      <label for="emotional">Emotional Pain Level:</label>
-      <input type="number" id="emotional" name="emotional" value="0"><br><br>
-      <label for="physical">Physical Pain Level:</label>
-      <input type="number" id="physical" name="physical" value="0"><br><br>
-      <input type="button" onclick="howMuchPainDoYouFeel(document.getElementById('emotional').value, document.getElementById('physical').value)" value="Determine" />
-    
+      <div class="parent-div">
+        <div class="input-div">
+          <label for="emotional">Emotional Pain Level:</label>
+          <input type="number" id="emotional" name="emotional" value="0"><br><br>
+          <label for="physical">Physical Pain Level:</label>
+          <input type="number" id="physical" name="physical" value="0"><br><br>
+          <input class="calculate" type="button" onclick="howMuchPainDoYouFeel(document.getElementById('emotional').value, document.getElementById('physical').value)" value="Determine" />
+        </div> 
+	<div class="result">
+      	  <p id="determine"></p>
+	  <img id="image1">
+	</div>
+      </div>
       <script src="painCalculator.js"></script>
-      <p id="determine"></p>
      
     
     </body>
